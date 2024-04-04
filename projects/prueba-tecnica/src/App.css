@@ -1,3 +1,7 @@
+:root {
+    color-scheme: dark;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -5,4 +9,14 @@ main {
     max-width: 500px;
     margin: 0 auto;
     font-family: system-ui;
+}
+
+button {
+    padding: 1rem;
+    font-size: medium;
+}
+
+img {
+    max-width: 500px;
+    aspect-ratio: 16/9;
 }
